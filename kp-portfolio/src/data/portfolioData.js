@@ -81,31 +81,31 @@ export const projects = [
     name: "AdvoCare", title: "Smart Legal Case Management System", visual: "legal",
     text: "A legal case-management platform concept with role-based workflows for clients, law firms and administrators.",
     tags: ["Django", "Django REST Framework", "React", "PostgreSQL", "JWT"],
-    repo: "https://github.com/kartikprajapati", demo: "",
+    repo: "https://github.com/KartikPrajapati168", demo: "",
   },
   {
     name: "WasteExchange AI", title: "Industrial Waste Marketplace", visual: "waste",
     text: "A marketplace concept connecting industrial waste generators and buyers, with AI-assisted material classification and buyer matching.",
     tags: ["MERN", "MongoDB", "JWT", "AI/ML"],
-    repo: "https://github.com/kartikprajapati", demo: "",
+    repo: "https://github.com/KartikPrajapati168", demo: "",
   },
   {
     name: "ZaykaZone", title: "Food Ordering Platform", visual: "food",
     text: "A food-ordering platform project focused on restaurant discovery and ordering workflows.",
     tags: ["Django", "PostgreSQL", "Payment Integration"],
-    repo: "https://github.com/kartikprajapati", demo: "",
+    repo: "https://github.com/KartikPrajapati168", demo: "",
   },
   {
     name: "Jaman Ahmedabad", title: "Tiffin Ordering Platform", visual: "tiffin",
     text: "A tiffin-ordering application concept connecting customers with meal providers.",
     tags: ["FastAPI", "React", "MongoDB"],
-    repo: "https://github.com/kartikprajapati", demo: "",
+    repo: "https://github.com/KartikPrajapati168", demo: "",
   },
   {
     name: "Customer Churn ML", title: "Machine Learning System", visual: "analytics",
     text: "A machine-learning workflow involving preprocessing, model training, evaluation and model comparison.",
     tags: ["Python", "Pandas", "Scikit-learn", "XGBoost"],
-    repo: "https://github.com/kartikprajapati", demo: "",
+    repo: "https://github.com/KartikPrajapati168", demo: "",
   },
 ];
 
