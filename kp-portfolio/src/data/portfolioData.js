@@ -103,11 +103,11 @@ export const projects = [
   },
   {
     name: "Jaman Ahmedabad", title: "Tiffin Ordering Platform", visual: "tiffin",
-    image: "/jaman.png", // TODO: Put your screenshot in public folder
+    image: "/jaman homepage.jpeg", // TODO: Put your screenshot in public folder
     text: "A tiffin-ordering application concept connecting customers with meal providers.",
     tags: ["FastAPI", "React", "MongoDB"],
     repo: "https://github.com/KartikPrajapati168", 
-    demo: "https://YOUR-JAMAN-VERCEL-LINK.vercel.app", // TODO: Replace with actual Vercel link
+    demo: "https://jaman-ivory.vercel.app/", // TODO: Replace with actual Vercel link
   },
   {
     name: "Customer Churn ML", title: "Machine Learning System", visual: "analytics",
