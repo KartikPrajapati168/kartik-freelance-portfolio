@@ -80,7 +80,7 @@ export const services = [
 export const projects = [
   {
     name: "AdvoCare", title: "Smart Legal Case Management System", visual: "legal",
-    image: "/advocare.png", // TODO: Put your screenshot in public folder
+    image: "/advocare homepage.png", // TODO: Put your screenshot in public folder
     text: "A legal case-management platform concept with role-based workflows for clients, law firms and administrators.",
     tags: ["Django", "Django REST Framework", "React", "PostgreSQL", "JWT"],
     repo: "https://github.com/KartikPrajapati168", 
@@ -88,7 +88,7 @@ export const projects = [
   },
   {
     name: "WasteExchange AI", title: "Industrial Waste Marketplace", visual: "waste",
-    image: "/wasteexchange.png", // TODO: Put your screenshot in public folder
+    image: "/wasteExchange ai.png", // TODO: Put your screenshot in public folder
     text: "A marketplace concept connecting industrial waste generators and buyers, with AI-assisted material classification and buyer matching.",
     tags: ["MERN", "MongoDB", "JWT", "AI/ML"],
     repo: "https://github.com/KartikPrajapati168", 
