@@ -96,6 +96,7 @@ export const projects = [
   },
   {
     name: "ZaykaZone", title: "Food Ordering Platform", visual: "food",
+    image:"/zaykazone homepage.png",
     text: "A food-ordering platform project focused on restaurant discovery and ordering workflows.",
     tags: ["Django", "PostgreSQL", "Payment Integration"],
     repo: "https://github.com/KartikPrajapati168", demo: "",
