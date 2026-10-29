@@ -29,7 +29,11 @@ export default function Projects() {
         <div className="grid grid-projects">
           {projects.map((p) => (
             <article key={p.name} className="card project-card">
-              <ProjectVisual type={p.visual} />
+              {p.image ? (
+                <img src={p.image} alt={p.name} className="project-img" />
+              ) : (
+                <ProjectVisual type={p.visual} />
+              )}
               <div className="project-body">
                 <h3>{p.name}</h3>
                 <p className="project-sub">{p.title}</p>
