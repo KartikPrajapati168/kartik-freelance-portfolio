@@ -84,7 +84,7 @@ export const projects = [
     text: "A legal case-management platform concept with role-based workflows for clients, law firms and administrators.",
     tags: ["Django", "Django REST Framework", "React", "PostgreSQL", "JWT"],
     repo: "https://github.com/KartikPrajapati168", 
-    demo: "https://YOUR-ADVOCARE-VERCEL-LINK.vercel.app", // TODO: Replace with actual Vercel link
+    demo: "https://django-frontend-nine.vercel.app/", // TODO: Replace with actual Vercel link
   },
   {
     name: "WasteExchange AI", title: "Industrial Waste Marketplace", visual: "waste",
@@ -92,7 +92,7 @@ export const projects = [
     text: "A marketplace concept connecting industrial waste generators and buyers, with AI-assisted material classification and buyer matching.",
     tags: ["MERN", "MongoDB", "JWT", "AI/ML"],
     repo: "https://github.com/KartikPrajapati168", 
-    demo: "https://YOUR-WASTE-EXCHANGE-VERCEL-LINK.vercel.app", // TODO: Replace with actual Vercel link
+    demo: "https://wasteexchange-ai-omega.vercel.app/", // TODO: Replace with actual Vercel link
   },
   {
     name: "ZaykaZone", title: "Food Ordering Platform", visual: "food",
