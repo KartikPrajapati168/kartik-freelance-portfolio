@@ -11,7 +11,7 @@ export const profile = {
   intro:
     "I build practical web applications, backend APIs and data-driven solutions for real-world problems.",
   tagline: "Practical web apps, APIs and ML solutions.",
-  // Optional: put a real photo in /public (e.g. "/kartik.jpg") and set it here.
+  // Optional: put a real photo in /public (e.g., "/kartik.jpg") and set it here.
   // Leave empty ("") to show the developer code-card illustration.
   photo: "",
   photoAlt: "Portrait of Kartik Prajapati",
@@ -19,7 +19,7 @@ export const profile = {
 
 export const contact = {
   email: "kartikprajapati9995@gmail.com", // TODO replace (also receives the contact-form mailto)
-  whatsappNumber: "917016875858", // TODO country code + number, digits only (e.g. 919876543210)
+  whatsappNumber: "917016875858", // TODO country code + number, digits only (e.g., 919876543210)
   github: "https://github.com/KartikPrajapati168",
   linkedin: "https://linkedin.com/in/kartik-prajapati-a5a104306",
   location: "Ahmedabad, Gujarat, India",
@@ -75,19 +75,24 @@ export const services = [
 ];
 
 // visual: legal | waste | food | tiffin | analytics   (CSS mockups, see Projects.jsx)
+// image: Add your screenshot path here (e.g., "/advocare.png")
 // repo / demo: put real URLs. Leave "" to hide that link.
 export const projects = [
   {
     name: "AdvoCare", title: "Smart Legal Case Management System", visual: "legal",
+    image: "/advocare.png", // TODO: Put your screenshot in public folder
     text: "A legal case-management platform concept with role-based workflows for clients, law firms and administrators.",
     tags: ["Django", "Django REST Framework", "React", "PostgreSQL", "JWT"],
-    repo: "https://github.com/KartikPrajapati168", demo: "",
+    repo: "https://github.com/KartikPrajapati168", 
+    demo: "https://YOUR-ADVOCARE-VERCEL-LINK.vercel.app", // TODO: Replace with actual Vercel link
   },
   {
     name: "WasteExchange AI", title: "Industrial Waste Marketplace", visual: "waste",
+    image: "/wasteexchange.png", // TODO: Put your screenshot in public folder
     text: "A marketplace concept connecting industrial waste generators and buyers, with AI-assisted material classification and buyer matching.",
     tags: ["MERN", "MongoDB", "JWT", "AI/ML"],
-    repo: "https://github.com/KartikPrajapati168", demo: "",
+    repo: "https://github.com/KartikPrajapati168", 
+    demo: "https://YOUR-WASTE-EXCHANGE-VERCEL-LINK.vercel.app", // TODO: Replace with actual Vercel link
   },
   {
     name: "ZaykaZone", title: "Food Ordering Platform", visual: "food",
@@ -97,9 +102,11 @@ export const projects = [
   },
   {
     name: "Jaman Ahmedabad", title: "Tiffin Ordering Platform", visual: "tiffin",
+    image: "/jaman.png", // TODO: Put your screenshot in public folder
     text: "A tiffin-ordering application concept connecting customers with meal providers.",
     tags: ["FastAPI", "React", "MongoDB"],
-    repo: "https://github.com/KartikPrajapati168", demo: "",
+    repo: "https://github.com/KartikPrajapati168", 
+    demo: "https://YOUR-JAMAN-VERCEL-LINK.vercel.app", // TODO: Replace with actual Vercel link
   },
   {
     name: "Customer Churn ML", title: "Machine Learning System", visual: "analytics",
@@ -120,7 +127,7 @@ export const skills = [
 
 export const experience = [
   {
-    title: "BrainyBeam — Python / AI-ML Training",
+    title: "BrainyBeam — Python Developer",
     period: "Approx. 2 months · Remote", // TODO verify exact dates before publishing
     points: ["Remote training focused on Python and AI/ML.", "Exact dates and program details to be verified before publication."],
   },
